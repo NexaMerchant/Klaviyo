@@ -37,6 +37,12 @@ return [
 
     /**
      * 
+     * The api key of the package
+     */
+    'api_key' => env('KLAVIYO_API_KEY', ''),
+
+    /**
+     * 
      * The description of the package
      */
     'description' => '',

@@ -102,6 +102,7 @@ class KlaviyoServiceProvider extends ServiceProvider
             $this->commands([
                 \NexaMerchant\Klaviyo\Console\Commands\Install::class,
                 \NexaMerchant\Klaviyo\Console\Commands\UnInstall::class,
+                \NexaMerchant\Klaviyo\Console\Commands\Profile\Lists::class,
             ]);
         }
     }
